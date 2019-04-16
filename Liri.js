@@ -35,7 +35,7 @@ switch (action) {
         concert(userEntry);
         break;
 
-    case "spotify-this-song":
+    case "spotify-this":
         userInput("+")
         song(userEntry);
         break;
@@ -45,7 +45,7 @@ switch (action) {
         movie(userEntry);
         break;
 
-    case "do-what-it-says":
+    case "do-this":
         doIt();
         break;
 }
