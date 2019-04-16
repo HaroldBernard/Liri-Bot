@@ -25,7 +25,7 @@ function userInput(plus) {
 }
 
 var action = process.argv[2];
-// var value = process.argv[3];
+// or can do a slice at the array at the 3rd element and then join as an array var value = process.argv.slice[3].join(" ");
 
 // We will then create a switch-case statement (if-else would also work).
 // The switch-case will direct which function gets run.
